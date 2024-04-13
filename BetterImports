@@ -1,0 +1,2 @@
+def install_module(module_name):
+    os.system(f'{sys.executable} -m pip install {module_name}')
